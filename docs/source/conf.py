@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
+project = 'GeoSync'
+copyright = '2024, Cited, Inc.'
 author = 'Graziella'
 
 release = '0.1'
