@@ -18,5 +18,18 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   intro
+   dashboard
+   users
+   servers
+   projects
+   groups
+   daemons
+   services
+   geoserver
+   data
+   frontend
+
+
+
+   
