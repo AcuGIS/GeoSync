@@ -3,32 +3,20 @@ Users
 
 .. _installation:
 
-Installation
+Access
 ------------
 
-To use Lumache, first install it using pip:
+To acces Users, click Users on the left menu:
 
-.. code-block:: console
 
-   (.venv) $ pip install lumache
-
-Creating recipes
+Manage Users
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+You can add, edit, and delete users via the Users page.
 
-.. autofunction:: lumache.get_random_ingredients
+   .. image:: images/users.png
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
 
-For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
