@@ -1,10 +1,9 @@
 GeoSync Docs
 ===================================
 
-**GeoSync** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**GeoSync** is a front end application for DB-Sync and GeoDiff
+It syncronizes data from QGIS and Mergin Maps Server with PostGIS databases.
+
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
