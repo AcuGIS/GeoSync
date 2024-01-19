@@ -3,32 +3,21 @@ Servers
 
 .. _installation:
 
-Installation
+Access
 ------------
 
-To use Lumache, first install it using pip:
+You can access the Servers page via Servers on the left menu
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
 
 Creating recipes
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Here, you can add, edit, and delete servers.
 
-.. autofunction:: lumache.get_random_ingredients
+URL: The full url of your Mergin Maps server
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Username: An Admin username
 
-.. autoexception:: lumache.InvalidKindError
+Password: An Admin password
 
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   .. image:: images/servers.png
