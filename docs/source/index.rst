@@ -1,10 +1,13 @@
 GeoSync 
 ===================================
 
-**GeoSync** is a browser-based UI for Mergin Maps DB-Sync.  It syncronizes data from QGIS and Mergin Maps Server with PostGIS databases.
+GeoSync syncronizes data from QFieldCloud, Mergin Maps, and Survey123 to PostGIS.
 
-   .. image:: images/admin-2.png
+It works with all versions of QFiedlCloud (hosted or self-hosted), Mergin Maps (Team Account or self-hosted), and ArGIS Survey123
 
+Data can be synchronized to existing PostGIS databases or you can create new PostGIS databases.
+
+   .. image:: images/geosync-github-1.png
 
 
 Contents
