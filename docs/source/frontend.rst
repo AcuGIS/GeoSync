@@ -7,4 +7,4 @@ The Front End, however, is for End Users to view data only and does not contain 
 
 
 
-   .. image:: images/view-1.png
+   .. image:: images/quick-start-admin-1.png
