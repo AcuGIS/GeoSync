@@ -9,11 +9,15 @@ Once logged in, click on the Administration link at top as shown below:
 Short Version
 ------------
 
-1.  On the Server page, add your Mergin Maps server.
+1.  On the Server page, add your QFieldCloud, Mergin Maps and ArcGIS Survey123 server(s).
 
-2.  On the Project page, add your project.  You can have a PostGIS database created for you automatically or you can connect to an existing PostGIS database.
+2.  On the Database menu, select an existing PostGIS database, or create a new PostGIS database to synchronize data to.
 
-3.  On the Service page, start the service.
+3.  On the Project menu, add your project(s). 
+
+4.  On the Daemons page, select the interval to check for updates and set file retention. 
+
+5.  On the Service page, start the service.
 
 That's it!
 
