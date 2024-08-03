@@ -16,10 +16,9 @@ Contents
 .. toctree::
 
    intro
-   install
+   login
    quickstart
    dashboard
-   profile
    servers
    databases
    projects
