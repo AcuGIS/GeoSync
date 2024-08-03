@@ -10,7 +10,7 @@ Usage
 
 On the Data page, click the Project you wish to view as shown below:
 
-   .. image:: images/admin-15.png
+   .. image:: images/view-1.png
 
 
 The data is displayed as a map and table.
@@ -18,13 +18,13 @@ The data is displayed as a map and table.
 The Table can be sorted by column as well as searched.
 
 
-   .. image:: images/data-2.png
+   .. image:: images/view-2.png
 
 
 To export data to a CSV file, click the CSV links as shown below:
 
 
-   .. image:: images/data-4.png
+   .. image:: images/csv-export.png
 
 
 
