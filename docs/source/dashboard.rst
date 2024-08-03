@@ -8,5 +8,5 @@ Usage
 
 The Dashboard provides links to services as well as links to Documentation and Support.
 
-   .. image:: images/admin-2.png
+   .. image:: images/geosync-github-1.png
 
