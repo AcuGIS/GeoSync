@@ -9,35 +9,25 @@ Usage
 To add a Project, click the "Add New" button at top as show below:
 
 
-   .. image:: images/admin-5.png
+   .. image:: images/projects-1.png
 
-For Database Type select either Local or Remote as shown below.
+Enter the required fields as shown below.
 
-Local will create a PostGIS database on the GeoSync server, which you can then access.
+Note: Once you select a Server from the dropdown, the available Projects dropdown will be populated automatically
 
-Remote will prompt you for a remote PostGIS database that you wish to use.
-
-   .. image:: images/admin-6.png
+   .. image:: images/projects-2.png
 
 
-Populate the required fields as show below:
+Note: Once you select a Project, the available Packages will be populated automatically in the dropdown.
 
-   .. image:: images/admin-7.png
+   .. image:: images/projects-3.png
+
+Select the PostGIS database you wish to use for your data from the dropdown.
+
+   .. image:: images/projects-4.png
 
 
-
-
-Project:  The QGIS Project name.  This is case sensitive and must be the exact name of the QGIS Project.
-
-Workspace:  The Workspace on your Mergin Server.  When self-hosting this value will always be "mergin".  If using Mergin Maps Team account or Enterprise Edition, this will be the actual Workspace name.
-
-Mergin:  Select the Mergin Maps server in use from the drop-down.
-
-GeoPackage:  This field is case sensitive and must be the exact name of the GeoPackage for the Project.  Include only the name and not the extension(.gpkg)
-
-Password:  This will serve as the PostGIS database password.
-
-Click the "Next" button to save the Project
+Note: The schema name will default to project_data.  You can change this to whatever you wish to.
 
 
 Actions
