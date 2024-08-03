@@ -26,18 +26,17 @@ Under Stores, we can see a PostGIS Store has been created from the neighborhoods
    .. image:: images/gs-stores-4.png
 
 
-Click Add button to save
+We can now create a Layer as normal 
 
    .. image:: images/gs-stores-5.png
 
 
-
-Click Add button to save
+Click "Publish"
 
    .. image:: images/gs-stores-6.png
 
 
-Click Add button to save
+The Layer has been created:
 
    .. image:: images/gs-stores-7.png
 
