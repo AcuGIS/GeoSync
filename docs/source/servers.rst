@@ -1,9 +1,9 @@
 Servers
 =====
 
-The Servers page is where you add your Mergin Maps server(s)
+The Servers page is where you add your QFieldCloud, Mergin Maps, and ArcGIS Survey123 server(s)
 
-GeoSync supports multiple Mergin Maps servers.
+GeoSync supports multiple servers.
 
 Usage
 ------------
@@ -12,11 +12,7 @@ On the Servers page you can add, edit, and delete servers.
 
 Click the "Add New" button at top right to add a Server.
 
-   .. image:: images/admin-3.png
-
-The fields to populate are below:
-
-   .. image:: images/admin-4.png
+   .. image:: images/servers-add-new-2.png
 
 Name: Give your Server a name.
 
