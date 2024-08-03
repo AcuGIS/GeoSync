@@ -1,34 +1,21 @@
 Groups
 =====
 
-.. _installation:
+The Groups page is used to group Projects together for viewing Project data via the Data and Front End pages.
 
-Installation
+Usage
 ------------
 
-To use Lumache, first install it using pip:
+To create a Group, click the "Add New" button at top.
 
-.. code-block:: console
+Enter a name for the Group.
 
-   (.venv) $ pip install lumache
+Use the Multi-Select element to select the Projects to include in your Group.
 
-Creating recipes
-----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+   .. image:: images/groups.png
 
-.. autofunction:: lumache.get_random_ingredients
+Actions
+------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+The Action buttons at right can be used to edit and delete Groups.

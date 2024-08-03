@@ -1,16 +1,11 @@
-GeoSync Docs
+GeoSync 
 ===================================
 
-**GeoSync** is a front end application for DB-Sync and GeoDiff
-It syncronizes data from QGIS and Mergin Maps Server with PostGIS databases.
+**GeoSync** is a browser-based UI for Mergin Maps DB-Sync.  It syncronizes data from QGIS and Mergin Maps Server with PostGIS databases.
+
+   .. image:: images/admin-2.png
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
 
 Contents
 --------
@@ -18,14 +13,14 @@ Contents
 .. toctree::
 
    intro
+   install
+   quickstart
    dashboard
-   users
+   profile
    servers
    projects
-   groups
    daemons
    services
-   geoserver
    data
    frontend
 

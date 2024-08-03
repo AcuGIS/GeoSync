@@ -1,76 +1,22 @@
 Daemons
 =====
 
-.. _installation:
+The Daemon page is used the set the Service options.
 
-Installation
+Options
 ------------
 
-To use Lumache, first install it using pip:
+There are four options for Daemons, as shown below:
 
+.. image:: images/admin-14.png
 
-Creating recipes
-----------------
+Skip Init:  Use Skip Init to skip the initialization of syncronization. 
 
-.. image:: images/daemons.png
-now
-Dashboard.png
-images
-now
-daemons.png
-images
-now
-data-1.png
-images
-now
-data-2.png
-images
-now
-data-3.png
-images
-now
-data-4.png
-images
-now
-geoserver-1.png
-images
-now
-groups.png
-images
-now
-project-1.png
-images
-now
-project-2.png
-images
-now
-project-3.png
-images
-now
-servers.png
-images
-now
-services.png
-images
-now
-users.png
+Force Init: Force Init will drop the PostGIS schema and reinitialize the Project in the database.
 
+Single Run: Peform a single run.
 
+Sleep Time:  The Frequency determines how often the service syncronizes.  By default, this is every 10 seconds.  You can adjust this interval here using the slide.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+NOTE: You must restart the instance for the above changes to take effect.
 

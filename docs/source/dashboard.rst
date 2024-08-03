@@ -1,34 +1,12 @@
 Dashboard
 =====
 
-.. _installation:
+The Dashboard can be accessed by clicking the "Administration" link at top once logged in.
 
-Installation
+Usage
 ------------
 
-To use Lumache, first install it using pip:
+The Dashboard provides links to services as well as links to Documentation and Support.
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   .. image:: images/admin-2.png
 

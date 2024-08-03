@@ -1,34 +1,36 @@
 Data
 =====
 
-.. _installation:
+The Data page displays Project data in both tabular and map formats.
 
-Installation
+It also includes ability to Search, Query, Cluster, and Export to CVS
+
+Usage
 ------------
 
-To use Lumache, first install it using pip:
+On the Data page, click the Project you wish to view as shown below:
 
-.. code-block:: console
+   .. image:: images/admin-15.png
 
-   (.venv) $ pip install lumache
 
-Creating recipes
-----------------
+The data is displayed as a map and table.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+The Table can be sorted by column as well as searched.
 
-.. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+   .. image:: images/data-2.png
 
-.. autoexception:: lumache.InvalidKindError
 
-For example:
+To export data to a CSV file, click the CSV links as shown below:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+
+   .. image:: images/data-4.png
+
+
+
+
+Multiple GeoPackages
+------------
+
+A data link will be displayed for each GeoPackage contained in a Project.
 

@@ -1,34 +1,10 @@
 Front End
 =====
 
-.. _installation:
+The Front End is identical in functionality to the Data page.
 
-Installation
-------------
+The Front End, however, is for End Users to view data only and does not contain links or access to the Administration area.
 
-To use Lumache, first install it using pip:
 
-.. code-block:: console
 
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   .. image:: images/admin-17.png

@@ -1,18 +1,24 @@
 Servers
 =====
 
-.. _installation:
+The Servers page is where you add your Mergin Maps server(s)
 
-Access
+GeoSync supports multiple Mergin Maps servers.
+
+Usage
 ------------
 
-You can access the Servers page via Servers on the left menu
+On the Servers page you can add, edit, and delete servers.
 
+Click the "Add New" button at top right to add a Server.
 
-Creating recipes
-----------------
+   .. image:: images/admin-3.png
 
-Here, you can add, edit, and delete servers.
+The fields to populate are below:
+
+   .. image:: images/admin-4.png
+
+Name: Give your Server a name.
 
 URL: The full url of your Mergin Maps server
 
@@ -20,4 +26,17 @@ Username: An Admin username
 
 Password: An Admin password
 
-   .. image:: images/servers.png
+Click the Add icon to save the Server information
+
+Actions
+------------
+
+The Actions sections allows you to:
+
+1. View Admin Password
+
+2. Edit Server information
+
+3. Delete server
+
+
