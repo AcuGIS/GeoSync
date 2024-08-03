@@ -21,6 +21,7 @@ Contents
    dashboard
    profile
    servers
+   databases
    projects
    daemons
    services
