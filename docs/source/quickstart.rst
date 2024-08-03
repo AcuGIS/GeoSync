@@ -4,7 +4,7 @@ Quick Start
 
 Once logged in, click on the Administration link at top as shown below:
 
-  .. image:: images/admin-1.png
+  .. image:: images/quick-start-admin-1.png
 
 Short Version
 ------------
