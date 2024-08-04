@@ -48,3 +48,10 @@
     cursor: pointer;
     color: #fff;
 }
+
+
+.ethical-dark-theme .ethical-sidebar {
+    background-color: #50667f;
+    border: 1px solid #a0a0a0;
+    color: #fff !important;
+}
