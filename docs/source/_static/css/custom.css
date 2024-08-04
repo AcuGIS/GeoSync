@@ -24,7 +24,7 @@
     overflow-y: hidden;
     min-height: 100%;
     color: black;
-    background: #fff;
+    background: #50667f;
     z-index: 200;
 }
 
@@ -35,5 +35,5 @@
     display: block;
     position: relative;
     font-size: 90%;
-    color: #666;
+    color: #fff;
 }
