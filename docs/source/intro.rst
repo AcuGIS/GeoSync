@@ -1,7 +1,7 @@
 Introduction
 =====
 
-   .. image:: images/geosync-github-1.png
+   .. image:: images/GeoSync-AcuGIS.png
 
 Usage
 ------------
