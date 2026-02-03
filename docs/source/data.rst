@@ -8,7 +8,7 @@ It is particularly usefule for verifying updates as well as simple access to dat
 Usage
 ------------
 
-On the Data page, click the Project you wish to view as shown below:
+On the Data page, click the Project you wish to view as shown below
 
    .. image:: images/Synchronize-Data-1.png
 
