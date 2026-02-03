@@ -8,7 +8,7 @@ Options
 
 There are four options for Daemons, as shown below:
 
-.. image:: images/daemons-1.png
+.. image:: images/Frequency-Daemon.png
 
 Skip Init:  Use Skip Init to skip the initialization of syncronization. 
 
