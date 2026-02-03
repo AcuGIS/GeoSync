@@ -24,6 +24,7 @@ Contents
    projects
    daemons
    services
+   files
    data
    frontend
 
