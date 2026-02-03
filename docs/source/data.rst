@@ -1,32 +1,22 @@
 Data
 =====
 
-The Data page displays Project data in both tabular and map formats.
+The Data page proivdes a way to quickly view Project data in both tabular and map formats.
 
-It also includes ability to Search, Query, Cluster, and Export to CVS
+It is particularly usefule for verifying updates as well as simple access to data.
 
 Usage
 ------------
 
 On the Data page, click the Project you wish to view as shown below:
 
-   .. image:: images/view-1.png
+   .. image:: images/Synchronize-Data-1.png
 
+ The data is displayed as a map and can also be opened in table format.  
 
-The data is displayed as a map and table.
+.. image:: images/Synchronize-Data-2.png
 
-The Table can be sorted by column as well as searched.
-
-
-   .. image:: images/view-2.png
-
-
-To export data to a CSV file, click the CSV links as shown below:
-
-
-   .. image:: images/csv-export.png
-
-
+You can also export to CSV using the left menu.
 
 
 Multiple GeoPackages
