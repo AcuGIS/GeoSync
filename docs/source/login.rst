@@ -6,6 +6,6 @@ Login information is contained in your Welcome Email.
 Go to the specified url to log in
 
 
-   .. image:: images/geosync.png
+   .. image:: images/GeoSync-Login-Page.png
 
 
