@@ -10,9 +10,12 @@ Usage
 
 On the Data page, click the Project you wish to view as shown below
 
-   .. image:: images/Synchronize-Data-1.png
 
- The data is displayed as a map and can also be opened in table format.  
+.. image:: images/Synchronize-Data-1.png
+
+
+The data is displayed as a map and can also be opened in table format.  
+
 
 .. image:: images/Synchronize-Data-2.png
 
