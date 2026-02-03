@@ -1,45 +1,43 @@
 Databases
 =====
 
-The Database page is where you can create PostGIS databases, as well as onnect to existing PostGIS databases.
+The Database page is where you can create PostGIS databases, as well as connect to existing PostGIS databases.
 
 Usage
 ------------
 
-To create a Database, click the "Add New" button at top as show below:
+To create a Database, click the Database link in the left menu
 
 
-   .. image:: images/add-database-1.png
+   .. image:: images/Databases-1.png
 
-For Database Type select either Local or Remote as shown below.
+Click the "Add New" button at top as show below:
 
-Local will create a PostGIS database on the GeoSync server, which you can then access.
-
-Remote will prompt you for a remote PostGIS database that you wish to use.
-
-   .. image:: images/add-database-2.png
+   .. image:: images/Databases-2.png
 
 
-If createing a new PostGIS database, it will prompt you to give a name for your database as below:
+Select Local or Remote.  In our example, we'll select Local.  Click Next
+ 
+   .. image:: images/Databases-3.png
 
-   .. image:: images/add-database-3.png
 
+Select whether to create a new PostGIS database or use an existing local PostGIS database.  We'll select Create.
 
+   .. image:: images/Databases-4.png
 
-Actions
-------------
+Give the new database a name and click Next
 
-The Actions at right allow you to edit and delete databases, as well as show as well as dislay connection information 
+   .. image:: images/Databases-5.png
 
-To display database connection, click on Show Connection icons as shown below:
-
+The new local PostGIS database has now been created
    
-   .. image:: images/project-4.png
+   .. image:: images/Databases-6.png
 
+You can view the connection information for the database using the info icon.
 
-A modal with the information will be displayed, along with a Copy button as shown below:
+   .. image:: images/Databases-7.png
 
+You can also edit or delete the database using the action icons at right.
 
-   .. image:: images/project-5.png
 
 
