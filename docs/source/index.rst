@@ -7,7 +7,7 @@ It works with all versions of QFiedlCloud (hosted or self-hosted), Mergin Maps (
 
 Data can be synchronized to existing PostGIS databases or you can create new PostGIS databases.
 
-   .. image:: images/geosync-github-1.png
+   .. image:: images/GeoSync-AcuGIS.png
 
 
 Contents
